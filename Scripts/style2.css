@@ -563,10 +563,11 @@
    
 }
 .TnCs{
-    font-size: 16px;
-    font-family: 'noir_promedium';
+    font-size: 17px;
+    font-family: 'noir_probold';
     padding: 10px 0;
     text-align: center;
+    color: white;
 }
 .spa{
     padding: 0 1rem;
