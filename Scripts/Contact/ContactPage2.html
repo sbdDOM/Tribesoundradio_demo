@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tribesoundradio - contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="/IMAGES/Miscellaneous/tsr favicon_128px.png" type="image/png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/Scripts/style2.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar w3-top">
+  <div class="w3-bar w3-black w3-card" id="nav">
+    <a class="w3-bar-item w3-padding-large w3-hide-large w3-right w3-xlarge" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/index.html"><h1 class="Sanvito w3-bar-item w3-padding-large w3-hide-small w3-hide-medium" >tribesoundradio.</h1></a> 
+    <div class="nav-links active w3-hide-small w3-hide-medium">
+      <a href="https://www.buymeacoffee.com/tribesoundradio" target="_blank"  class=" w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">donate</a>
+      <a href="/Scripts/Contact/ContactPage2.html" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">contact</a>
+      <a href="https://wa.me/c/27810899795" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">merch</a>
+      <a href="/index.html" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">about</a>
+      <div class="w3-dropdown-hover w3-hide-small w3-hide-medium w3-right">
+        <button class="NavBtn w3-padding-large" title="More">shows <i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
+          <a href="/Scripts/shows/Season one/Season1.html" class="w3-bar-item ">season one</a>
+          <a href="/Scripts/shows/Season two/Season2.html" class="w3-bar-item">season two</a>
+          <a href="/Scripts/shows/Mixes for masses/MfM.html" class="w3-bar-item ">mixes for the masses</a>
+        </div>
+      </div>
+      <a href="/index.html" class="w3-bar-items w3-padding-large w3-hide-small w3-hide-medium w3-right">latest</a>
+      <a href="/index.html" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">home</a>
+      
+    </div>
+    <a href="/index.html" class="SmallHome w3-hide-large"><img src="/IMAGES/TsrLogoAndIcons/tsr white logo.png" style="width: 60px;margin-left: 10px;position: absolute"></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" style="margin-top:46px">
+  <a href="/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">home</a>
+  <div class="dropdown w3-black w3-bar-item">
+    <button onclick="myFunction1()" class="dropbtn">shows<i class="fa fa-caret-down" style="padding-left:5px"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="/Scripts/shows/Season one/Season1.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()" >season one</a>
+      <a href="/Scripts/shows/Season two/Season2.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">season two</a>
+      <a href="/Scripts/shows/Mixes for masses/MfM.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">mixes for the masses</a>
+    </div>
+  </div>
+  <a href="https://wa.me/c/27810899795" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">merch</a>
+  <a href="/Scripts/Contact/ContactPage2.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">contacts</a>
+  <a href="https://mailchi.mp/4d1ecccf9559/tribesoundradio-newsletter" target="_blank" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">subscribe</a>
+  <a href="https://www.buymeacoffee.com/tribesoundradio" target="_blank" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">donate</a>
+</div>
+
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:820px" id="contact">
+    <h2 class="w3-center" style="font-weight: bold; padding-top: 30px; font-size: 50px">Contact Us</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom" id="Info">
+        <i class="fa fa-map-marker" id="Icon1"></i>South Africa<br>
+        <i class="fa fa-phone" id="Icon2"></i>(+27) 81 089 9795<br>
+        <a href="mailto:tribesoundradio@gmail.com" ><i class="fa fa-envelope" id="Icon3"></i></a>tribesoundradio@gmail.com
+      </div>
+      <div class="w3-col m6">
+        <form action="https://formsubmit.co/tsrdevteam@gmail.com" method="POST">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+  <div class="w3-container w3-content" >  
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom w3-padding-16">
+        <img src="/IMAGES/ContactPage/CEO_image.jpeg" alt="Team image" style="width:100%">    
+        <div class=" w3-white">
+          <h1 id="WixFontH1">Siphosethu Baduza</h1>
+          <p class="w3-opacity" id="WixFontH2">Founder</p>
+          <p>For information regarding collaborations, sponsorships and more, contact me.</p>
+          <a href="mailto:siphosethu.baduza@gmail.com"><i class="fa fa-envelope" id="Icon"></i></a><b>siphosethu.baduza@gmail.com</b><br>
+          <i class="fa fa-phone" id="Icon2"></i><b>(+27) 73 238 2466</b>
+        </div>
+      </div>  
+      
+      <div class="w3-third w3-margin-bottom w3-padding-16">
+        <img src="/IMAGES/ContactPage/Kiiller Moc SA_Contact page image.jpg" alt="Team image" style="width:100%">
+        <div class=" w3-white">
+          <h1 id="WixFontH1">Onke Wabena</h1>
+          <p class="w3-opacity" id="WixFontH2">Resident DJ</p>
+          <p>If you would like to collaborate with me for your next project, contact me</p>
+          <a href="mailto:djkiillermocsa81@gmail.com"><i class="fa fa-envelope" id="Icon"></i></a><b>djkiillermocsa81@gmail.com</b>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom w3-padding-16">
+        <img src="/IMAGES/TsrLogoAndIcons/TsrDevLogo.jpeg" alt="Team Image" style="width:100%">
+        <div class="w3-white">
+          <h1 id="WixFontH1">Rivaldo Esbend</h1>
+          <p class="w3-opacity" id="WixFontH2">Developer</p>
+          <p>Contact me for any queries regarding this website. E.g. Faults, or even a compliment</p>
+          <a href="mailto:tsrdevteam@gmail.com"><i class="fa fa-envelope" id="Icon"></i></a><b>tsrdevteam@gmail.com</b>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom w3-padding-16">
+        <img src="/IMAGES/ContactPage/Phumlane Ndlovu_Contact page image.jpg" alt="Team image" style="width:100%">    
+        <div class=" w3-white">
+          <h1 id="WixFontH1">Phumlane Ndlovu</h1>
+          <p class="w3-opacity" id="WixFontH2">Creative Director</p>
+          <a href="mailto:Ndlovuphumlane@gmail.com"><i class="fa fa-envelope" id="Icon"></i></a><b>Ndlovuphumlane@gmail.com</b><br>
+          <i class="fa fa-phone" id="Icon2"></i><b>(+27) 84 664 9804</b>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom w3-padding-16">
+        <img src="/IMAGES/ContactPage/Yolanda Thezaphi_Contact page image.jpg" alt="Team image" style="width:100%">    
+        <div class=" w3-white">
+          <h1 id="WixFontH1">Yolanda Thezaphi</h1>
+          <p class="w3-opacity" id="WixFontH2">Advisor</p>
+          <a href="mailto:y.thezaphi@gmail.com"><i class="fa fa-envelope" id="Icon"></i></a><b>y.thezaphi@gmail.com</b>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom w3-padding-16">
+        <img src="/IMAGES/ContactPage/Azania Azanie_Contact page image.jpg" alt="Team image" style="width:100%">    
+        <div class=" w3-white">
+          <h1 id="WixFontH1">Azania Azanie</h1>
+          <p class="w3-opacity" id="WixFontH2">Brand Ambassador</p>
+          <a href="mailto:leratozwane19@gmail.com"><i class="fa fa-envelope" id="Icon"></i></a><b>leratozwane19@gmail.com</b>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Page Content -->
+</div>
+<div class="space" style="padding:20px"></div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-black w3-padding-64 w3-center w3-xxlarge w3-hide-large w3-hide-medium" style="background-image:url(/IMAGES/Miscellaneous/mixesForTheMassesCover.jpg)">
+  <a href="https://www.facebook.com/tribesoundradio/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/tribesoundradio" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://www.tiktok.com/@tribesoundradio" target="_blank"><i class="fa fa-tiktok-official"></i></a>
+  <a href="https://www.twitter.com/tribesoundradio" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a href="https://www.youtube.com/channel/UCyO5izKkaqPyCzFJ1ipOIsg" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+  <a href="https://wa.me/message/BCJVQRB2KJWDN1" target="_blank"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+
+</footer>
+
+
+<div class="footer-container w3-hide-small">
+<div class="footer">
+    <div class="footer-heading footer-2">
+        <h2 id="bold">Contact Us</h2>
+        <a href="/Scripts/Contact/ContactPage2.html">Get Involved</a>
+        <a href="mailto:tribesoundradio@gmail.com">Email</a>
+    </div>    
+    <div class="footer-heading footer-3">
+        <h2 id="bold">Social Media</h2>
+        <a href="https://wa.me/message/BCJVQRB2KJWDN1" target="_blank">WhatsApp</a>
+        <a href="https://www.twitter.com/tribesoundradio" target="_blank">Twitter</a>
+        <a href="https://www.facebook.com/tribesoundradio/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/tribesoundradio" target="_blank">Instagram</a>
+        <a href="https://www.youtube.com/channel/UCyO5izKkaqPyCzFJ1ipOIsg" target="_blank">Youtube</a>
+        <a href="https://www.tiktok.com/@tribesoundradio" target="_blank">TikTok</a>
+    </div>            
+    <div class="footer-email-form">
+        <h2 id="bold">Join our newsletter!</h2>
+        <a href="https://mailchi.mp/4d1ecccf9559/tribesoundradio-newsletter" target="_blank"> <input type="submit" value="Subscribe" id="footer-email-btn"></a>
+
+        <div class="socialicons">
+          <a href="https://wa.me/message/BCJVQRB2KJWDN1" target="_blank"><img src="/IMAGES/TsrLogoAndIcons/whatsapp-icon-3934.png" alt="whatsapp"></a>
+          <a href="https://www.twitter.com/tribesoundradio" target="_blank"><img src="/IMAGES/TsrLogoAndIcons/twitterIcon.png" alt="twitter"></a>
+          <a href="https://www.facebook.com/tribesoundradio/" target="_blank"><img src="/IMAGES/TsrLogoAndIcons/facebookIcon.png" alt="facebook"></a>
+          <a href="https://www.instagram.com/tribesoundradio" target="_blank"><img src="/IMAGES/TsrLogoAndIcons/instagramIcon.png" alt="instagram"></a>
+          <a href="https://www.youtube.com/channel/UCyO5izKkaqPyCzFJ1ipOIsg" target="_blank"><img src="/IMAGES/TsrLogoAndIcons/youtubeIcon.png" alt="youtube"></a>
+          <a href="https://www.tiktok.com/@tribesoundradio" target="_blank"><img src="/IMAGES/TsrLogoAndIcons/tiktokIcon.png" alt="tiktok"></a>
+            
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="/Scripts/playerScript.js"></script>
+</body>
+</html>

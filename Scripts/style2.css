@@ -1,0 +1,566 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    @import url(https://db.onlinewebfonts.com/c/ff194d14f11197a37610711ef9f788ff?family=NoirPro-Regular);
+    @import url(https://db.onlinewebfonts.com/c/cfa8c9d9ee40a6c49cd3f868a7a7a85e?family=Sanvito+Pro);
+    @import url(https://db.onlinewebfonts.com/c/63137a821976b7fdfcf941ab1528cb19?family=AG_Helvetica);
+    font-family: "noir_proregular";
+    
+
+}
+@font-face {
+    font-family: 'noir_probold';
+    src: url('/Fonts/noirpro-bold-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_probold_italic';
+    src: url('/Fonts/noirpro-bolditalic-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noir_proheavy';
+    src: url('/Fonts/noirpro-heavy-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_proheavy_italic';
+    src: url('/Fonts/noirpro-heavyitalic-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-heavyitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_proitalic';
+    src: url('../Fonts/webfontkit-20220326-175332/noirpro-italic-webfont.woff2') format('woff2'),
+         url('../Fonts/webfontkit-20220326-175332/noirpro-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_prolight';
+    src: url('/Fonts/noirpro-light-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_prolight_italic';
+    src: url('/Fonts/noirpro-lightitalic-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_promedium';
+    src: url('/Fonts/noirpro-medium-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_promedium_italic';
+    src: url('/Fonts/noirpro-mediumitalic-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_proregular';
+    src: url('/Fonts/noirpro-regular-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_prosemi_bold';
+    src: url('/Fonts/noirpro-semibold-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_prosemi_bold_italic';
+    src: url('/Fonts/noirpro-semibolditalic-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Sanvito Pro"; 
+    src: url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.eot?") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.woff") format("woff"), url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.svg") format("svg");
+ }
+/*_______________________Home Page n navbar____________*/
+.mySlides {
+    display: none;
+}
+.Sanvito{
+    font-family: "Sanvito Pro";
+    font-size: 25px;
+    font-weight: lighter;
+    margin:0;
+    margin-left: 20px;
+}
+#nav{
+    font-size: 14px;
+}
+.nav-links{
+    padding: 7px;
+    margin-right: 20px;
+    font-size: 15px;
+    
+}
+.nav-links a{
+    text-decoration: none;
+}
+.SmallHome{
+    font-size: 15px;
+}
+.nav-links a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: rgb(173, 111, 52);
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links a:hover::after,
+.nav-links a.active
+{
+    width: 100%;
+}
+.NavBtn{
+    font-family: "noir_proregular";
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color:black ;
+    color: white;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    background-color: black;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%
+  }
+  #myDropdown{
+    width: 100%;
+    background-color: black;
+    position: relative;
+  }
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+/*_________________________BIg black n white home page image________*/
+.center{
+    position: relative;
+}
+.center img{
+    display: block;
+    width: 100%;
+    margin: auto;   
+}
+#MobileImage{
+    display: none;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 8.9%;
+    right: 0;
+    overflow: hidden;
+    width: 82.5%;
+    height: 0;
+    transition: 2s ease;
+}
+.center:hover .overlay {
+    height: 70%;
+}
+.text{
+    width: 50%;
+    position: absolute;
+    left: -9%;
+}
+.text2{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+.text3{
+    width: 50%;
+    position: absolute;
+    left: 59%;   
+}
+/*_____________HomePage Future Text and Latest Text______________*/
+.FutureText{
+    font-family: "noir_proregular";
+    padding-left: 7rem;
+    font-size: 57px;
+    font-weight: bold;
+}
+#band{
+    margin-bottom: 5rem;
+}
+.mLeft{
+    text-align: left;
+}
+
+.LatestText{
+    font-family: "noir_proregular";
+    padding-right: 7rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 60px;
+}
+.mobileHeading{
+    font-size: 35px;
+    font-family: "noir_promedium";
+}
+#bold{
+    font-family: "noir_probold";
+    padding: 0;
+}
+#bolder{
+    font-family: "noir_promedium";
+    
+    padding-bottom: 0;
+    
+}
+#medium{
+    font-family: "noir_promedium";
+}
+.Absoulte{
+    position: absolute;
+}
+.Mid{
+    justify-content: center;
+    display: flex;
+}
+.btn {
+    border: none;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btn a:link , a:visited{
+    text-decoration: none;
+    font-family: "noir_probold";
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+.btn:hover {
+    text-decoration: none;
+    background-color: rgb(173, 111, 52);
+    color : white;
+   
+}
+
+
+/*_______________contact page_________________*/
+#WixFontH1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#WixFontH2{
+    font-size: 19px;
+    font-weight: bold;
+}
+#Info{
+    font-size: 15px; 
+    font-weight: bold; 
+    
+}
+#Icon1{
+    padding-right: 17px;
+}
+#Icon2{
+    padding-right: 12px;
+}
+#Icon3{
+    padding-right: 9px;
+}
+#Icon{
+    padding-right: 9px;
+    padding-top: 10px;
+}
+
+/*______________Season one page__________________*/
+.jar{
+    width: 60%;
+}
+#Title{
+    font-family: "noir_promedium";
+    font-size: 25px;
+    margin: 0;
+    padding-left: 1rem;
+    padding-bottom: 5px;
+}
+#TitleL{
+    color: white;
+    font-family: "noir_promedium";
+    font-size: 36px;
+    margin: 0;
+    padding-left: 1rem;
+    padding-top: 4rem;
+    }
+#TitleL2{
+    color: white;
+    font-family: "noir_promedium";
+    font-size: 36px;
+    margin: 0;
+    padding-left: 1rem;
+}
+#TitleP{
+    color: white;
+    font-family: "noir_proregular";
+    padding-left: 1rem;
+    }
+#rightP{
+    text-align: right;
+
+}  
+#rightP2{
+    padding-left: 7rem;
+} 
+#ImgR{
+    width:92%;
+    margin-left: 2rem;
+    
+}
+  
+#activePage{
+    background-color: #2f2f2e;
+    color: white;
+}
+@media (max-width:800px) {
+    .jar{
+        width: 100%;
+    }
+    #ImgR{
+        margin: 1rem;
+    }
+}
+/*_________________episode Page_______________*/
+.butttonPrevNext{
+    font-family: "NoirPro-Regular";
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0 32px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+}
+#Noir{
+    font-family: "noir_promedium";
+}
+.mp3 a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.mp3{
+    position: relative;
+    margin: 0 auto;
+}
+
+.Prev{
+    margin-bottom: 1rem;
+}
+
+#Noir2{
+    
+    font-family: "NoirPro-Regular";
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: small;
+    cursor: pointer;
+    margin: auto 0;
+
+
+}
+/*-----for read more/less button---*/
+#more{
+    display: none;
+}
+.divider{
+  border-top: 1px solid white;
+  width: 60%;
+  margin: 0 auto;
+}
+ 
+#myBtn {
+    margin-top: 2rem;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "noir_proregular";
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#myBtn:hover {
+    background-color: rgb(173, 111, 52);
+    color : white;
+   
+}   
+
+
+/*_____________________________footer____________________*/
+
+.footer-container{
+    padding: 25px;
+    padding-bottom: 4rem;
+    background-image: url(/IMAGES/Miscellaneous/mixesForTheMassesCover.jpg); 
+    background-size: cover;
+    font-family: "NoirPro-Regular";
+    
+}
+.footer{
+   width: 90%;
+   height: 40vh;
+   padding: 15px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   
+   
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+   
+    
+}
+.footer-3 a,.footer-2 a{
+    padding:0;
+    margin:0;
+}
+.footer-heading a:hover{
+    color: rgb(173, 111, 52);
+    transition: 0.3s ease-in-out;
+    
+}
+.footer-email-form img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    display: inline-block;
+}
+.socialicons{
+    padding-top: 10px;
+}
+.footer-email-form h2{
+    margin-bottom: 2rem;
+}
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    
+}
+#footer-email::placeholder{
+    color: rgb(184, 184, 184);
+}
+#footer-email-btn{
+   width: 100px;
+   height: 40px;
+   border-radius: 10px;
+   /* background-color: rgba(173, 110, 52, 0.603); */
+   background: transparent;
+   outline: none;
+   border: 2px solid white;
+   color: white;
+   opacity: 0.7;
+   transition: 0.3s ease-in-out;
+   margin-bottom: 5px;
+}
+#footer-email-btn:hover{
+   cursor: pointer;
+   background-color: rgb(173, 111, 52);
+   outline: none;
+   border: none;
+   opacity: 1;
+   
+}
+
+
