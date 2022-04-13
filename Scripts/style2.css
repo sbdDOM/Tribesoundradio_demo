@@ -562,5 +562,13 @@
    opacity: 1;
    
 }
+.TnCs{
+    font-size: 16px;
+    font-family: 'noir_promedium';
+    padding: 10px 0;
+}
+.spa{
+    padding: 0 5px;
+}
 
 
