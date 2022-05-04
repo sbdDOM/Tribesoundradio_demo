@@ -134,6 +134,9 @@
 .SmallHome{
     font-size: 15px;
 }
+.navLeft{
+    margin-left: 1rem;
+}
 .navLine a::after{
     content: '';
     width: 0%;
