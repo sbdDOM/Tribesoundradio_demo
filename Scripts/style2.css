@@ -135,7 +135,7 @@
     font-size: 15px;
 }
 .navLeft{
-    margin-left: 1rem;
+    margin-right: 2rem;
 }
 .navLine a::after{
     content: '';
