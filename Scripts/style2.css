@@ -471,7 +471,33 @@
     background-color: rgb(173, 111, 52);
     color : white;
    
-}   
+} 
+/*_____________________Mfm page______________________*/
+.MixesContainer{
+    background-color: #181717;
+}
+.MixesHeading{
+    height: 700px;
+    background-image: url(/IMAGES/ShowsPage/Mfm/dj-1651995883463-176.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #181717;
+    color: white;
+    font-family: "Sanvito Pro";
+}
+.Mixes{
+    color:white;
+    position: relative;
+    margin: 1rem 10rem;
+} 
+.Mixes img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.MixesContent{
+    float: right;
+}
 
 
 /*_____________________________footer____________________*/
