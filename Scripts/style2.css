@@ -483,7 +483,11 @@
     background-repeat: no-repeat;
     background-color: #181717;
     color: white;
-    font-family: "Sanvito Pro";
+    
+}
+.MixesHeading h1{
+    font-family: "noir_proregular";
+    font-size: 40px;
 }
 .Mixes{
     color:white;
