@@ -1,5 +1,10 @@
-# Learning Git in VS Code
+# Tsr Notes
 
--ok now can i push and pull?
--is this the right
+-align the footer height wise
+-align latest width and footer width with paragraph
+-hover affect on contact page
+-update the latest show with ep14, ep13 and the event highlights
+-add new episode
+-update footer to every page 
+
 
