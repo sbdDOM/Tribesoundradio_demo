@@ -504,6 +504,7 @@
 #demo{
     font-size: 40px;
     padding-top: 10rem;
+    bottom: 10%;
 }
 
 
@@ -600,10 +601,11 @@
 }
 .TnCs{
     font-size: 17px;
-    font-family: 'noir_probold';
+    font-family: 'noir_prolight';
     padding: 10px 0;
     text-align: center;
     color: white;
+    margin-left: -7rem;
 }
 .spa{
     padding: 0 1rem;
