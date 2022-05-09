@@ -479,9 +479,8 @@
 .MixesHeading{
     height: 700px;
     background-image: url(/IMAGES/ShowsPage/Mfm/dj-1651995883463-176.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: #181717;
     color: white;
     
 }
