@@ -605,12 +605,12 @@
     font-size: 17px;
     font-family: 'noir_proregular';
     font-weight: light;
-    text-align: center;
+    text-align: justify;
     color: white;
-    margin-left: -7rem;
+    margin-left: 18rem;
 }
 .spa{
-    padding: 0 1rem;
+    padding: 0 2.4rem;
 }
 
 .navRight{
