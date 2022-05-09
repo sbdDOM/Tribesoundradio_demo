@@ -601,7 +601,8 @@
 }
 .TnCs{
     font-size: 17px;
-    font-family: 'noir_prolight';
+    font-family: 'noir_proregular';
+    font-weight: light;
     padding: 10px 0;
     text-align: center;
     color: white;
