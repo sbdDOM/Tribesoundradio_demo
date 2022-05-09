@@ -479,7 +479,7 @@
 .MixesHeading{
     height: 700px;
     background-image: url(/IMAGES/ShowsPage/Mfm/dj-1651995883463-176.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
     
@@ -500,6 +500,10 @@
 }
 .MixesContent{
     float: right;
+}
+#demo{
+    font-size: 40px;
+    padding-top: 10rem;
 }
 
 
