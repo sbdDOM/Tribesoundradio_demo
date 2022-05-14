@@ -256,6 +256,10 @@
 .mLeft{
     text-align: left;
 }
+.listHome{
+    text-align:left;
+    margin-left: 15px;
+}
 
 .LatestText{
     font-family: "noir_proregular";

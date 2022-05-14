@@ -41,6 +41,7 @@ function myFunction2() {
     moreText.style.display = "inline";
   }
 }
+/*
 // Set the date we're counting down to
 var countDownDate = new Date("May 15, 2022 00:00:00").getTime();
 
@@ -68,4 +69,4 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
-}, 1000);
+}, 1000);*/
