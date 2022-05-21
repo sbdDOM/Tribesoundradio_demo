@@ -488,24 +488,20 @@
     font-family: "noir_promedium";
     font-size: 40px;
 }
-.Mixes{
-    color:white;
-    position: relative;
-    margin: 1rem 10rem;
-} 
-.Mixes img{
-    width: 100%;
-    margin: 0;
-    padding: 0;
+.MixContent h2{
+    font-family: "noir_promedium";
+    font-size: 17px;
 }
-.MixesContent{
-    float: right;
+.MixIcons{
+    font-size: xx-large;
+    color: black;
 }
-#demo{
-    font-size: 40px;
-    padding-top: 10rem;
-    bottom: 10%;
+.MixIcons a{
+    padding-right: 10px;
+    color: black;
 }
+
+
 
 
 /*_____________________________footer____________________*/
