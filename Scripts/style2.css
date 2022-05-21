@@ -478,18 +478,14 @@
 } 
 /*_____________________Mfm page______________________*/
 .MixesContainer{
-    background-color: #181717;
-}
-.MixesHeading{
-    height: 700px;
-    background-image: url(/IMAGES/ShowsPage/Mfm/dj-1651995883463-176.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    color: white;
-    
+    background-color: white;
+    color: black;
+    font-family: "noir_proregular";
+    width: 100%;
+    height: auto;
 }
 .MixesHeading h1{
-    font-family: "noir_proregular";
+    font-family: "noir_promedium";
     font-size: 40px;
 }
 .Mixes{
