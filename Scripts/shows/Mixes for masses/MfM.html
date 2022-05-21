@@ -12,14 +12,14 @@
 <body>
 <!-- Navbar -->
 <div class="navbar w3-top">
-  <div class="w3-bar w3-black w3-card" id="nav">
+  <div class="w3-bar w3-black w3-card navLine" id="nav">
     <a class="w3-bar-item w3-padding-large w3-hide-large w3-right w3-xlarge" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="/index.html"><h1 class="Sanvito w3-bar-item w3-padding-large w3-hide-small w3-hide-medium" >tribesoundradio.</h1></a> 
     <div class="nav-links active w3-hide-small w3-hide-medium">
-      <a href="https://www.buymeacoffee.com/tribesoundradio" target="_blank" class=" w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">donate</a>
+      <a href="https://www.buymeacoffee.com/tribesoundradio" target="_blank"  class=" w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">donate</a>
       <a href="/Scripts/Contact/ContactPage2.html" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">contact</a>
-      <a href="https://wa.me/c/27810899795" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">merch</a>
-      <a href="/index.html" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">about</a>
+      <a href="https://wa.me/c/27810899795" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right" target="_blank">merch</a>
+      <a href="/index.html#band" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">about</a>
       <div class="w3-dropdown-hover w3-hide-small w3-hide-medium w3-right">
         <button class="NavBtn w3-padding-large" title="More">shows <i class="fa fa-caret-down"></i></button>     
         <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
@@ -28,7 +28,7 @@
           <a href="/Scripts/shows/Mixes for masses/MfM.html" class="w3-bar-item ">mixes for the masses</a>
         </div>
       </div>
-      <a href="/index.html" class="w3-bar-items w3-padding-large w3-hide-small w3-hide-medium w3-right">latest</a>
+      <a href="/index.html#tour" class="w3-bar-items w3-padding-large w3-hide-small w3-hide-medium w3-right">latest</a>
       <a href="/index.html" class="w3-bar-item w3-padding-large w3-hide-small w3-hide-medium w3-right">home</a>
       
     </div>
@@ -62,14 +62,16 @@
 
   <div class="w3-container w3-center w3-auto w3-padding-32">
     <div class="MixContent w3-half" style="height:auto">
-      <div class="w3-container ">
+      <div class="w3-container w3-hide-medium w3-hide-small">
         <img src="/IMAGES/ShowsPage/Mfm/mftm cover_001.jpg" alt="Thumbnail" style="width: 80%" >
+      </div>
+      <div class="w3-container w3-hide-large">
+        <img src="/IMAGES/ShowsPage/Mfm/mftm cover_001.jpg" alt="Thumbnail" style="width: 100%" >
       </div><br>
-      <audio
-      controls>
-          Your browser does not support the
-          <code>audio</code> element.
-      </audio>
+      <audio controls> 
+        <source src="/Music/MFTM/Hamba_Kwezo_Mixtape.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio> 
       <h2>Enjoying the mix? Follow Hamba Kwezo.</h2><i class="fa-thin fa-badge-check"></i>
       <div class="MixIcons">
         <a href="https://instagram.com/hamba_kwezo?utm_medium=copy_link" target="_blank" ><i class="fa fa-instagram" ></i></a>
@@ -82,14 +84,13 @@
     </div>
     
     <div class="MixContent w3-half" style="height:auto">
-      <div class="w3-container  ">
+      <div class="w3-container">
         <img src="/IMAGES/ShowsPage/Mfm/mftm cover_002.jpg" alt="Thumbnail" style="width: 80%">
       </div><br>
-      <audio
-        controls>
-            Your browser does not support the
-            <code>audio</code> element.
-        </audio>  
+      <audio controls>
+        <source src="/Music/MFTM/Dlala_ikamva_Mixtape.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>    
         <h2>Enjoying the mix? Follow Dlala ikamva.</h2>
         <div class="MixIcons">
           <a href="https://www.instagram.com/dlala_ikamva_/" target="_blank" ><i class="fa fa-instagram" ></i></a>
