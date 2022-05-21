@@ -7,4 +7,4 @@
 -add new episode
 -update footer to every page 
 
-
+-insta, twitter, facebook, tik tok, twitch, soundcloud, spotify, youtube, mail
