@@ -457,7 +457,13 @@
   width: 60%;
   margin: 0 auto;
 }
- 
+.divider2{
+    width: 10%;
+    margin: auto;
+    margin-bottom: 4rem;
+    
+  }
+   
 #myBtn {
     margin-top: 2rem;
     border: 1px solid white;
