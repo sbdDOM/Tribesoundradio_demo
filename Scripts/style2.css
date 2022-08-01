@@ -206,6 +206,7 @@
 /*_________________________BIg black n white home page image________*/
 .center{
     position: relative;
+    background-color: black;
 }
 .center img{
     display: block;
@@ -271,6 +272,7 @@
 .mobileHeading{
     font-size: 35px;
     font-family: "noir_promedium";
+    margin: 0;
 }
 #bold{
     font-family: "noir_probold";
