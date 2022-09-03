@@ -316,6 +316,63 @@
     color : white;
    
 }
+/*______________Event On home page_______________*/
+.Event_left{
+    position: relative;
+    padding-left: 102px;
+    font-size: 13px;
+  }
+  .Event_left p{
+    font-family: "noir_proregular";
+    word-spacing: -2px;
+    width: 440px;
+    height: 361px;
+    text-align: left;
+    padding:0;
+   
+  }
+  .Event_left_mobile{
+    position: relative;
+    margin: auto;
+    padding-top: 31px;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+  }
+  .Event_left_mobile p{
+    font-family: "noir_proregular";
+    word-spacing: -2px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+  }
+  #fatAss, #fatAzz, #fatAssMobile, #fatAzzMobile {
+    position: relative;
+    display: flex;
+    margin-bottom: 2rem;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 12px 70px;
+    cursor: pointer;
+    font-family: "noir_proregular";
+    font-size: 13px;
+    text-align: center;
+}
+
+#fatAss, #fatAzz, #fatAssMobile:hover {
+    background-color: rgb(173, 111, 52);
+    color : white;
+   
+} 
+
+#half{
+    padding-top: 200px;
+}
+#full{
+    padding-top: 40px;
+}
+
 
 
 /*_______________contact page_________________*/

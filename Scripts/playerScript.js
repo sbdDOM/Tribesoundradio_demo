@@ -41,32 +41,83 @@ function myFunction2() {
     moreText.style.display = "inline";
   }
 }
-/*
-// Set the date we're counting down to
-var countDownDate = new Date("May 15, 2022 00:00:00").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
 
-  // Get today's date and time
-  var now = new Date().getTime();
+var btnShow =  document.getElementById('fatAss').addEventListener('click', buttonClick);
+var btnShow =  document.getElementById('fatAssMobile').addEventListener('click', buttonClick);
+function buttonClick(e){
+    var show = document.getElementById("half");
+    var full = document.getElementById("full");
+    if (show.style.display === "none") {
+        show.style.display = "inline";
+        full.style.display = "none";
+    } else {
+        show.style.display = "none";
+        full.style.display = "inline";
+    }
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+    var shows = document.getElementById("halfs");
+    var fulls = document.getElementById("fulls");
+    if (shows.style.display === "none") {
+        shows.style.display = "inline";
+        fulls.style.display = "none";
+    } else {
+        shows.style.display = "none";
+        fulls.style.display = "inline";
+    }
+}
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+var btnShow =  document.getElementById('fatAzz').addEventListener('click', buttonClickz);
+var btnShow =  document.getElementById('fatAzzMobile').addEventListener('click', buttonClickz);
+function buttonClickz(e){
+    var show = document.getElementById("half");
+    var full = document.getElementById("full");
+    if (full.style.display === "none") {
+        full.style.display = "inline";
+        show.style.display = "none";
+    } else {
+        full.style.display = "none";
+        show.style.display = "inline";
+    }
 
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+    var shows = document.getElementById("halfs");
+    var fulls = document.getElementById("fulls");
+    if (fulls.style.display === "none") {
+        fulls.style.display = "inline";
+        shows.style.display = "none";
+    } else {
+        fulls.style.display = "none";
+        shows.style.display = "inline";
+    }
+}
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);*/
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+let i;
+let slides = document.getElementsByClassName("mySlide");
+for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > slides.length) {slideIndex = 1}
+slides[slideIndex-1].style.display = "block";
+setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+
+let mobileSlideIndex = 0;
+showMobileSlides();
+
+function showMobileSlides() {
+let i;
+let mobileSlides = document.getElementsByClassName("mobileSlide");
+for (i = 0; i < mobileSlides.length; i++) {
+    mobileSlides[i].style.display = "none";
+}
+mobileSlideIndex++;
+if (mobileSlideIndex > mobileSlides.length) {mobileSlideIndex = 1}
+mobileSlides[mobileSlideIndex-1].style.display = "block";
+setTimeout(showMobileSlides, 5000); // Change image every 2 seconds
+}
+
