@@ -346,7 +346,7 @@
     height: 100%;
     text-align: left;
   }
-  #fatAss, #fatAzz, #fatAssMobile, #fatAzzMobile {
+  #details, #detailsFull, #detailsMobile, #detailsFullMobile {
     position: relative;
     display: flex;
     margin-bottom: 2rem;
@@ -359,21 +359,81 @@
     font-size: 13px;
     text-align: center;
 }
-
-#fatAss, #fatAzz, #fatAssMobile:hover {
+#details, #detailsFull, #detailsMobile, #detailsFullMobile:hover {
     background-color: rgb(173, 111, 52);
     color : white;
-   
 } 
-
 #half{
     padding-top: 200px;
 }
 #full{
     padding-top: 40px;
 }
+#hereLink{
+    text-decoration: none;
 
+}
 
+/*________________Iziswear on home pg___________*/
+#iziswearWords{
+    padding-top: 4rem;
+    padding-right: 8rem;
+    color: white;
+    font-size: 30px;
+    font-family: noir_promedium;
+    position: absolute;
+    overflow:hidden;
+    right: 0%;
+  }
+  .Midbtn2{
+    position: relative;
+    padding-top: 20rem;
+    right: 1%;
+  }
+  .btn_whiteBorder {
+    border: 1px  white solid;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    padding: 15px 80px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .btn_whiteBorder a:link , a:visited{
+      text-decoration: none;
+      font-family: "noir_probold";
+      font-size: 13px;
+      text-align: center;
+      color: white;
+  }
+  .btn_whiteBorder:hover {
+      text-decoration: none;
+      background-color: rgb(173, 111, 52);
+      color : white;
+    
+  }
+  .btn_white {
+    border: none;
+    margin: 2px;
+    background-color: white;
+    color: black;
+    padding: 15px 75px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .btn_white a:link , a:visited{
+      text-decoration: none;
+      font-family: "noir_probold";
+      font-size: 13px;
+      text-align: center;
+      color: black;
+  }
+  .btn_white:hover {
+      text-decoration: none;
+      background-color: rgb(173, 111, 52);
+      color : white;
+    
+  }
 
 /*_______________contact page_________________*/
 #WixFontH1{

@@ -43,8 +43,8 @@ function myFunction2() {
 }
 
 
-var btnShow =  document.getElementById('fatAss').addEventListener('click', buttonClick);
-var btnShow =  document.getElementById('fatAssMobile').addEventListener('click', buttonClick);
+var btnShow =  document.getElementById('details').addEventListener('click', buttonClick);
+var btnShow =  document.getElementById('detailsMobile').addEventListener('click', buttonClick);
 function buttonClick(e){
     var show = document.getElementById("half");
     var full = document.getElementById("full");
@@ -67,8 +67,8 @@ function buttonClick(e){
     }
 }
 
-var btnShow =  document.getElementById('fatAzz').addEventListener('click', buttonClickz);
-var btnShow =  document.getElementById('fatAzzMobile').addEventListener('click', buttonClickz);
+var btnShow =  document.getElementById('detailsFull').addEventListener('click', buttonClickz);
+var btnShow =  document.getElementById('detailsFullMobile').addEventListener('click', buttonClickz);
 function buttonClickz(e){
     var show = document.getElementById("half");
     var full = document.getElementById("full");
