@@ -10,12 +10,13 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="Scripts/style2.css">
+<link rel="stylesheet" href="/Scripts/style2.css">
 </head>
 <body>
   
   
-<!-- Navbar -->
+<!-- ________________________Navbar_____________________ -->
+
 <div class="navbar w3-top">
   <div class="w3-bar w3-black w3-card navLine" id="nav">
     <a class="w3-bar-item w3-padding-large w3-hide-large w3-right w3-xlarge" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
@@ -41,7 +42,9 @@
   </div>
 </div>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+
+<!-- _________Navbar on small screens_____________-->
+
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" style="margin-top:46px">
   <a href="/index.html" class="navLine w3-bar-item w3-button w3-padding-large" onclick="myFunction()">home</a>
   <div class="dropdown w3-black w3-bar-item">
@@ -58,12 +61,16 @@
   <a href="https://www.buymeacoffee.com/tribesoundradio" target="_blank" class="navLine w3-bar-item w3-button w3-padding-large" onclick="myFunction()">donate</a>
 </div>
 
-<!-- Page content -->
+
+<!--___________________End of Navbar______________________-->
+<!--___________________Start of Page Content______________-->
+
+
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  <!-- Automatic Slideshow Images -->
+
+  <!-- ______________Slideshow Images____________ -->
   <div class="center">
-    
     <img src="/IMAGES/HomePage/web home page bg.jpg"  alt="mobile main image">
     <div class="overlay">
         <div class="text"><img src="/IMAGES/HomePage/words1.png" alt="text overlay one"></div>
@@ -71,8 +78,11 @@
         <div class="text3"><img src="/IMAGES/HomePage/word4.png" alt="text overlay three"></div>    
     </div>
   </div>
-   <!-- Latest Work Section -->
-   <div class="w3-black " id="tour">
+
+
+  <!-- ____________Latest Work Section___________ -->
+
+  <div class="w3-black " id="tour">
     <h2 class="LatestText w3-center w3-right w3-hide-small w3-hide-medium">latest work.</h2>
     <h2 class="mobileHeading w3-center w3-hide-large w3-padding-32" style="padding-left: 0">latest work.</h2>
     <div class="w3-container w3-content w3-padding-8 " style="max-width:930px">
@@ -105,129 +115,138 @@
             <div class="Mid">
               <a href="https://www.youtube.com/watch?v=Cv_bu91Q3oQ" target="_blank"><button class="btn">watch</button></a>
             </div>
-           
+            
           </div>
         </div> 
       </div>
     </div>
   </div>
   
-<div class="Event w3-container w3-padding-32">
-  <div class="Event_left w3-half w3-hide-small" id="half">
-      <div class="Event_Words" >
-        <h2 id="bolder">Come see some <br>art.</h2><br>
-      </div>
-      <button type="button" id="details">details</button>
-  </div>   
-  <div class="Event_left w3-half w3-animate-opacity w3-hide-small" id="full" style="display: none">
-      <div class="Event_Words" >
+
+  <!--_______________Current Event Section____________-->
+
+  <div class="Event w3-container w3-padding-32">
+    <div class="Event_left w3-half w3-hide-small" id="half">
+        <div class="Event_Words" >
           <h2 id="bolder">Come see some <br>art.</h2><br>
         </div>
-      <button type="button" id="detailsFull">details</button>
-      <div style="max-width:800px;padding:0">
-          <p>
-              If you like art and you’re around in Cape Town,
-              come to our exhibition on the 23rd of September, 2022.
-              <br><br>
-              From 15:00 until 21:00, we will be displaying artworks by
-              painter, Mlamli “Nytro” Ndlondlo all the way from eGqeberha.
-              The series of paintings will be based on season one of the
-              tribesoundradio mix; from “genesis” to “by any means.” Music for the day will be provided by Merchan & sethu.
-              <br><br>
-              There will be complimentary wines and snacks available. Baked edibles will be for sale. And entrance is free.
-              <br><br>
-              So come and feed your mind, body and soul at Co’Lab 22, the first official home of Isizwear. Tap <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MzBzcnUwdDM0dmdzdHFxMWNkZTZrMHB1ZGYgdHJpYmVzb3VuZHJhZGlvQG0&tmsrc=tribesoundradio%40gmail.com" target="_blank" id="hereLink">here</a> to add this event to your calender.
-              <br><br>
-              See you there...
-          </p>
-        </div>
-  </div> 
+        <button type="button" onclick="buttonClick()" id="details">details</button>
+    </div>   
+    <div class="Event_left w3-half w3-animate-opacity w3-hide-small" id="full" style="display: none">
+        <div class="Event_Words" >
+            <h2 id="bolder">Come see some <br>art.</h2><br>
+          </div>
+        <button type="button" onclick="buttonClickz()" id="detailsFull">details</button>
+        <div style="max-width:800px;padding:0">
+            <p>
+                If you like art and you’re around in Cape Town,
+                come to our exhibition on the 23rd of September, 2022.
+                <br><br>
+                From 15:00 until 21:00, we will be displaying artworks by
+                painter, Mlamli “Nytro” Ndlondlo all the way from eGqeberha.
+                The series of paintings will be based on season one of the
+                tribesoundradio mix; from “genesis” to “by any means.” Music for the day will be provided by Merchan & sethu.
+                <br><br>
+                There will be complimentary wines and snacks available. Baked edibles will be for sale. And entrance is free.
+                <br><br>
+                So come and feed your mind, body and soul at Co’Lab 22, the first official home of Isizwear. Tap <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MzBzcnUwdDM0dmdzdHFxMWNkZTZrMHB1ZGYgdHJpYmVzb3VuZHJhZGlvQG0&tmsrc=tribesoundradio%40gmail.com" target="_blank" id="hereLink">here</a> to add this event to your calender.
+                <br><br>
+                See you there...
+            </p>
+          </div>
+    </div> 
+    
+    <!--________________Current Event Images______________-->
   
-  
-  <div class="mySlide w3-half w3-hide-small w3-content w3-animate-opacity">
-      <img src="./IMAGES/HomePage/art exhibition poster_2_square.jpg" alt="event img" style="width:90%">
-  </div>
-  <div class="mySlide w3-half w3-hide-small w3-content w3-animate-opacity">
-      <img src="./IMAGES/HomePage/art exhibition poster_square.jpg" alt="event img" style="width:90%">
-  </div>
-  <div class="mySlide w3-half w3-hide-small w3-content w3-animate-opacity">
-      <img src="./IMAGES/HomePage/art exhibition poster_square_negative.jpg" alt="event img" style="width:90%">
-  </div>
-  <div class="mobileSlide w3-half w3-hide-medium w3-hide-large w3-content w3-animate-opacity">
-      <img src="./IMAGES/HomePage/art exhibition poster_mobile (1).jpg" alt="event img" style="width:100%">
-  </div>
-  <div class="mobileSlide w3-half w3-hide-medium w3-hide-large w3-content w3-animate-opacity">
-      <img src="./IMAGES/HomePage/art exhibition poster_mobile (2).jpg" alt="event img" style="width:100%">
-  </div>
+    <div class="mySlide w3-half w3-hide-small w3-content w3-animate-opacity">
+        <img src="./IMAGES/HomePage/art exhibition poster_2_square.jpg" alt="event img" style="width:90%">
+    </div>
+    <div class="mySlide w3-half w3-hide-small w3-content w3-animate-opacity">
+        <img src="./IMAGES/HomePage/art exhibition poster_square.jpg" alt="event img" style="width:90%">
+    </div>
+    <div class="mySlide w3-half w3-hide-small w3-content w3-animate-opacity">
+        <img src="./IMAGES/HomePage/art exhibition poster_square_negative.jpg" alt="event img" style="width:90%">
+    </div>
+    <div class="mobileSlide w3-half w3-hide-medium w3-hide-large w3-content w3-animate-opacity">
+        <img src="./IMAGES/HomePage/art exhibition poster_mobile (1).jpg" alt="event img" style="width:100%">
+    </div>
+    <div class="mobileSlide w3-half w3-hide-medium w3-hide-large w3-content w3-animate-opacity">
+        <img src="./IMAGES/HomePage/art exhibition poster_mobile (2).jpg" alt="event img" style="width:100%">
+    </div>
 
-  <div class="Event_left_mobile w3-half w3-hide-medium w3-hide-large" id="halfs">
-      <div class="Event_Words_mobile w3-center" >
-        <h2 id="bolder">Come see some art.</h2>
-      </div>
-      <button type="button" id="detailsMobile" style="margin: 2rem auto">details</button>
-  </div>
-  <div class="Event_left_mobile w3-half w3-hide-medium w3-hide-large" id="fulls" style="display: none">
-      <div class="Event_Words_mobile w3-center" >
+
+    <!--_____________Current Event mobile Section___________-->
+
+    <div class="Event_left_mobile w3-half w3-hide-medium w3-hide-large" id="halfs">
+        <div class="Event_Words_mobile w3-center" >
           <h2 id="bolder">Come see some art.</h2>
+        </div>
+        <button type="button" onclick="buttonClick()" id="detailsMobile" style="margin: 2rem auto">details</button>
+    </div>
+    <div class="Event_left_mobile w3-half w3-hide-medium w3-hide-large" id="fulls" style="display: none">
+        <div class="Event_Words_mobile w3-center" >
+            <h2 id="bolder">Come see some art.</h2>
+        </div>
+        <button type="button" onclick="buttonClickz()" id="detailsFullMobile" style="margin: 2rem auto">details</button>
+        <div class="w3-container w3-content w3-center" style="max-width:800px;padding:0">
+            <p>
+                If you like art and you’re around in Cape Town,
+                come to our exhibition on the 23rd of September, 2022.
+                <br><br>
+                From 15:00 until 21:00, we will be displaying artworks by
+                painter, Mlamli “Nytro” Ndlondlo all the way from eGqeberha.
+                The series of paintings will be based on season one of the
+                tribesoundradio mix; from “genesis” to “by any means.” Music for the day will be provided by Merchan & sethu.
+                <br><br>
+                There will be complimentary wines and snacks available. Baked edibles will be for sale. And entrance is free.
+                <br><br>
+                So come and feed your mind, body and soul at Co’Lab 22, the first official home of Isizwear. Tap <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MzBzcnUwdDM0dmdzdHFxMWNkZTZrMHB1ZGYgdHJpYmVzb3VuZHJhZGlvQG0&tmsrc=tribesoundradio%40gmail.com" target="_blank" id="hereLink">here</a> to add this event to your calender.
+                <br><br>
+                See you there...
+            </p>
+        </div>
+    </div>
+  </div>
+
+
+  <!--______________Iziswear Section_______________-->
+
+  <div class="w3-container w3-hide-small" style="padding:0; background-color: black">
+    <div class="w3-threequarter w3-white">
+      <img src="./IMAGES/HomePage/Isizwear_BG_Desktop.jpg" style="width: 100%;">
+    </div>
+
+    <div class="w3-quarter" style="height:auto">
+      <div class="w3-container w3-padding-64 " style="text-align: right" >
+          <h1 id="iziswearWords">Send a WhatsApp<br>text to order your<br>Isiwear Vintage<br>Sweater.</h1>
       </div>
-      <button type="button" id="detailsFullMobile" style="margin: 2rem auto">details</button>
-      <div class="w3-container w3-content w3-center" style="max-width:800px;padding:0">
-          <p>
-              If you like art and you’re around in Cape Town,
-              come to our exhibition on the 23rd of September, 2022.
-              <br><br>
-              From 15:00 until 21:00, we will be displaying artworks by
-              painter, Mlamli “Nytro” Ndlondlo all the way from eGqeberha.
-              The series of paintings will be based on season one of the
-              tribesoundradio mix; from “genesis” to “by any means.” Music for the day will be provided by Merchan & sethu.
-              <br><br>
-              There will be complimentary wines and snacks available. Baked edibles will be for sale. And entrance is free.
-              <br><br>
-              So come and feed your mind, body and soul at Co’Lab 22, the first official home of Isizwear. Tap <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MzBzcnUwdDM0dmdzdHFxMWNkZTZrMHB1ZGYgdHJpYmVzb3VuZHJhZGlvQG0&tmsrc=tribesoundradio%40gmail.com" target="_blank" id="hereLink">here</a> to add this event to your calender.
-              <br><br>
-              See you there...
-          </p>
+      <div class="Midbtn2">
+        <a href="https://wa.me/c/27810899795"><button class="btn2_whiteBorder">order</button></a>
+        <a href="https://www.google.com/maps/place/22+Lower+Main+Rd,+Observatory,+Cape+Town,+7925/@-33.9418314,18.4601888,15z/data=!4m13!1m7!3m6!1s0x1dcc5d1b5ede11e1:0x4b5f129b56160fe1!2s22+Lower+Main+Rd,+Observatory,+Cape+Town,+7925!3b1!8m2!3d-33.9418314!4d18.4689435!3m4!1s0x1dcc5d1b5ede11e1:0x4b5f129b56160fe1!8m2!3d-33.9418314!4d18.4689435?hl=en"><button class="btn2_white">location</button></a>
       </div>
+    </div>  
   </div>
-</div>
-
-<div class="w3-container w3-hide-small" style="padding:0; background-color: black">
-  <div class="w3-threequarter w3-white">
-    <img src="./IMAGES/HomePage/Isizwear_BG_Desktop.jpg" style="width: 100%;">
-  </div>
-
-  <div class="w3-quarter" style="height:auto">
-    <div class="w3-container w3-padding-64 " style="text-align: right" >
-        <h1 id="iziswearWords">Send a WhatsApp<br>text to order your<br>Isiwear Vintage<br>Sweater.</h1>
+  <div class="w3-container w3-hide-large w3-hide-medium" style="padding:0; background-color: black">
+    <div class="w3-threequarter w3-white">
+      <img src="./IMAGES/HomePage/Isizwear_BG_Mobile.jpg" style="width: 100%;">
     </div>
-    <div class="Midbtn2">
-      <a href="https://wa.me/c/27810899795"><button class="btn_whiteBorder">order</button></a>
-      <a href="https://www.google.com/maps/place/22+Lower+Main+Rd,+Observatory,+Cape+Town,+7925/@-33.9418314,18.4601888,15z/data=!4m13!1m7!3m6!1s0x1dcc5d1b5ede11e1:0x4b5f129b56160fe1!2s22+Lower+Main+Rd,+Observatory,+Cape+Town,+7925!3b1!8m2!3d-33.9418314!4d18.4689435!3m4!1s0x1dcc5d1b5ede11e1:0x4b5f129b56160fe1!8m2!3d-33.9418314!4d18.4689435?hl=en"><button class="btn_white">location</button></a>
-    </div>
-  </div>  
-</div>
-<div class="w3-container w3-hide-large w3-hide-medium" style="padding:0; background-color: black">
-  <div class="w3-threequarter w3-white">
-    <img src="./IMAGES/HomePage/Isizwear_BG_Mobile.jpg" style="width: 100%;">
+
+    <div class="w3-quarter" style="height:auto;">
+      <div class="w3-container w3-padding-32 " style="text-align: left" >
+          <h1 id="iziswearWordsMobile">Send a WhatsApp<br>text to order your<br>Isiwear Vintage<br>Sweater.</h1>
+      </div>
+      <div class="Midbtn2" style="margin-left: 3rem">
+        <a href="https://wa.me/c/27810899795"><button class="btn2_whiteBorder" style="padding: 12px 40px">order</button></a><br>
+        <a href="https://www.google.com/maps/place/22+Lower+Main+Rd,+Observatory,+Cape+Town,+7925/@-33.9418314,18.4601888,15z/data=!4m13!1m7!3m6!1s0x1dcc5d1b5ede11e1:0x4b5f129b56160fe1!2s22+Lower+Main+Rd,+Observatory,+Cape+Town,+7925!3b1!8m2!3d-33.9418314!4d18.4689435!3m4!1s0x1dcc5d1b5ede11e1:0x4b5f129b56160fe1!8m2!3d-33.9418314!4d18.4689435?hl=en"><button class="btn2_white" style="padding: 12px 34px">location</button></a>
+      </div>
+    </div>  
   </div>
 
-  <div class="w3-quarter" style="height:auto;">
-    <div class="w3-container w3-padding-32 " style="text-align: left" >
-        <h1 id="iziswearWords">Send a WhatsApp<br>text to order your<br>Isiwear Vintage<br>Sweater.</h1>
-    </div>
-    <div class="Midbtn2" style="margin-left: 3rem">
-      <a href="https://wa.me/c/27810899795"><button class="btn_whiteBorder" style="padding: 12px 40px">order</button></a><br>
-      <a href="https://www.google.com/maps/place/22+Lower+Main+Rd,+Observatory,+Cape+Town,+7925/@-33.9418314,18.4601888,15z/data=!4m13!1m7!3m6!1s0x1dcc5d1b5ede11e1:0x4b5f129b56160fe1!2s22+Lower+Main+Rd,+Observatory,+Cape+Town,+7925!3b1!8m2!3d-33.9418314!4d18.4689435!3m4!1s0x1dcc5d1b5ede11e1:0x4b5f129b56160fe1!8m2!3d-33.9418314!4d18.4689435?hl=en"><button class="btn_white" style="padding: 12px 34px">location</button></a>
-    </div>
-  </div>  
-</div>
 
-  <div class="w3-padding-64 w3-black w3-hide-small"></div>
-  <div class="w3-padding-32 w3-black w3-hide-medium w3-hide-large"></div>
+  <!--____________________About us Section______________ -->
 
-  <!-- The Band Section -->
   <h2 class="FutureText w3-left w3-container w3-content w3-padding-32 w3-hide-small w3-hide-medium">the future of radio.</h2>
-  <h2 class="mobileHeading w3-container w3-content w3-center w3-padding-32 w3-hide-large ">the future of radio.</h2>
+  <h2 class="mobileHeading w3-container w3-content w3-center w3-padding-64 w3-hide-large ">the future of radio.</h2>
   <div class="w3-container w3-content w3-center " style="max-width:900px" id="band">  
     <p class="mLeft ">Established in 2018, tribesoundradio was an idea that manifested into an online radio show two years later. Originally, it was just a 60-minute music mix that consisted of 'undiscovered' music, hosted by the founder, sethu. Now, tribesoundradio has plans of developing into an online audio-visual radio experience — redefining what radio is. While maintaining the concept of bringing you the best up-and-coming talent, we will bring you even more content, more shows, and more art.
     From South Africa to the world! We are here to stay.<br><br>
@@ -248,56 +267,53 @@
    
   </div>
 
- 
-  
+  <!--_____________End of Content___________-->
+  <!--_____________Start of Footer__________-->
 
+  <footer class="w3-container w3-black w3-padding-64 w3-center w3-xxlarge w3-hide-large w3-hide-medium" style="background-image:url(/IMAGES/Miscellaneous/mixesForTheMassesCover.jpg)">
+      <a href="https://www.facebook.com/tribesoundradio/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/tribesoundradio" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.tiktok.com/@tribesoundradio" target="_blank"><i class="fab fa-tiktok w3-hover-opacity"></i></a>
+      <a href="https://www.twitter.com/tribesoundradio" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <a href="https://www.youtube.com/channel/UCyO5izKkaqPyCzFJ1ipOIsg" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+      <a href="https://wa.me/message/BCJVQRB2KJWDN1" target="_blank"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
 
-<!-- Footer -->
-
-<footer class="w3-container w3-black w3-padding-64 w3-center w3-xxlarge w3-hide-large w3-hide-medium" style="background-image:url(/IMAGES/Miscellaneous/mixesForTheMassesCover.jpg)">
-    <a href="https://www.facebook.com/tribesoundradio/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/tribesoundradio" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://www.tiktok.com/@tribesoundradio" target="_blank"><i class="fab fa-tiktok w3-hover-opacity"></i></a>
-    <a href="https://www.twitter.com/tribesoundradio" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-    <a href="https://www.youtube.com/channel/UCyO5izKkaqPyCzFJ1ipOIsg" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
-    <a href="https://wa.me/message/BCJVQRB2KJWDN1" target="_blank"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
-
-    <div class="TnCsMobile">
-      <p>tribesoundradio&copy2022</p>
-      <p>website developed by tribesoundDevelopers</p>
-      <p>version 1.0.0</p>
-    </div>
-</footer>
-
-
-<div class="footer-container w3-hide-small">
-  <div class="footer">
-      <div class="footer-heading footer-2">
-          <h2 id="bold">Contact Us</h2>
-          <a href="./header.html">Get Involved</a>
-          <a href="mailto:tribesoundradio@gmail.com">Email</a>
-      </div>    
-      <div class="footer-heading footer-3">
-          <h2 id="bold">Social Media</h2>
-          <a href="https://wa.me/message/BCJVQRB2KJWDN1" target="_blank">WhatsApp</a>
-          <a href="https://www.twitter.com/tribesoundradio" target="_blank">Twitter</a>
-          <a href="https://www.facebook.com/tribesoundradio/" target="_blank">Facebook</a>
-          <a href="https://www.instagram.com/tribesoundradio" target="_blank">Instagram</a>
-          <a href="https://www.youtube.com/channel/UCyO5izKkaqPyCzFJ1ipOIsg" target="_blank">Youtube</a>
-          <a href="https://www.tiktok.com/@tribesoundradio" target="_blank">TikTok</a>
-      </div>            
-      <div class="footer-email-form">
-          <h2 id="bold">Join our newsletter!</h2>
-          <a href="https://mailchi.mp/4d1ecccf9559/tribesoundradio-newsletter" target="_blank"> <input type="submit" value="Subscribe" id="footer-email-btn"></a>      
+      <div class="TnCsMobile">
+        <p>tribesoundradio&copy2022</p>
+        <p>website developed by tribesoundDevelopers</p>
+        <p>version 1.0.0</p>
       </div>
-        
-  </div><br><br>
-  <div class="TnCs">
-    <p>tribesoundradio&copy2022<span class="spa"></span>website developed by tribesoundDevelopers<span class="spa"></span>version 1.0.0</p>
-  </div>
-</div>
+  </footer>
 
-<script src="/Scripts/playerScript.js"></script>
+
+  <div class="footer-container w3-hide-small">
+    <div class="footer">
+        <div class="footer-heading footer-2">
+            <h2 id="bold">Contact Us</h2>
+            <a href="./Scripts/Contact/ContactPage2.html">Get Involved</a>
+            <a href="mailto:tribesoundradio@gmail.com">Email</a>
+        </div>    
+        <div class="footer-heading footer-3">
+            <h2 id="bold">Social Media</h2>
+            <a href="https://wa.me/message/BCJVQRB2KJWDN1" target="_blank">WhatsApp</a>
+            <a href="https://www.twitter.com/tribesoundradio" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/tribesoundradio/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/tribesoundradio" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/channel/UCyO5izKkaqPyCzFJ1ipOIsg" target="_blank">Youtube</a>
+            <a href="https://www.tiktok.com/@tribesoundradio" target="_blank">TikTok</a>
+        </div>            
+        <div class="footer-email-form">
+            <h2 id="bold">Join our newsletter!</h2>
+            <a href="https://mailchi.mp/4d1ecccf9559/tribesoundradio-newsletter" target="_blank"> <input type="submit" value="Subscribe" id="footer-email-btn"></a>      
+        </div>
+          
+    </div><br><br>
+    <div class="TnCs">
+      <p>tribesoundradio&copy2022<span class="spa"></span>website developed by tribesoundDevelopers<span class="spa"></span>version 1.0.0</p>
+    </div>
+  </div>
+
+  <script src="/Scripts/playerScript.js"></script>
 
 
 </body>

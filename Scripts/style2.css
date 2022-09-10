@@ -346,7 +346,7 @@
     height: 100%;
     text-align: left;
   }
-  #details, #detailsFull, #detailsMobile, #detailsFullMobile {
+  #details, #detailsFull{
     position: relative;
     display: flex;
     margin-bottom: 2rem;
@@ -359,7 +359,7 @@
     font-size: 13px;
     text-align: center;
 }
-#details, #detailsFull, #detailsMobile, #detailsFullMobile:hover {
+#details:hover, #detailsFull:hover {
     background-color: rgb(173, 111, 52);
     color : white;
 } 
@@ -371,6 +371,7 @@
 }
 #hereLink{
     text-decoration: none;
+    color: rgb(173, 111, 52);
 
 }
 
@@ -385,12 +386,20 @@
     overflow:hidden;
     right: 0%;
   }
+  #iziswearWordsMobile{
+    padding-top: 2rem;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    font-family: noir_promedium;
+    position: absolute;
+  }
   .Midbtn2{
     position: relative;
-    padding-top: 20rem;
-    right: 1%;
+    padding-top: 15rem;
+   
   }
-  .btn_whiteBorder {
+  .btn2_whiteBorder {
     border: 1px  white solid;
     margin: 2px;
     background-color: black;
@@ -399,20 +408,20 @@
     cursor: pointer;
     margin-bottom: 20px;
   }
-  .btn_whiteBorder a:link , a:visited{
+  .btn2_whiteBorder a:link , a:visited{
       text-decoration: none;
       font-family: "noir_probold";
       font-size: 13px;
       text-align: center;
       color: white;
   }
-  .btn_whiteBorder:hover {
+  .btn2_whiteBorder:hover {
       text-decoration: none;
       background-color: rgb(173, 111, 52);
       color : white;
     
   }
-  .btn_white {
+  .btn2_white {
     border: none;
     margin: 2px;
     background-color: white;
@@ -421,14 +430,8 @@
     cursor: pointer;
     margin-bottom: 20px;
   }
-  .btn_white a:link , a:visited{
-      text-decoration: none;
-      font-family: "noir_probold";
-      font-size: 13px;
-      text-align: center;
-      color: black;
-  }
-  .btn_white:hover {
+ 
+  .btn2_white:hover {
       text-decoration: none;
       background-color: rgb(173, 111, 52);
       color : white;

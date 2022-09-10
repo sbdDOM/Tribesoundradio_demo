@@ -43,9 +43,10 @@ function myFunction2() {
 }
 
 
-var btnShow =  document.getElementById('details').addEventListener('click', buttonClick);
-var btnShow =  document.getElementById('detailsMobile').addEventListener('click', buttonClick);
-function buttonClick(e){
+//var btnShow =  document.getElementById('details');
+//btnShow.addEventListener('click', buttonClick);
+//var btnShow =  document.getElementById('detailsMobile').addEventListener('click', buttonClick);
+function buttonClick(){
     var show = document.getElementById("half");
     var full = document.getElementById("full");
     if (show.style.display === "none") {
@@ -67,9 +68,9 @@ function buttonClick(e){
     }
 }
 
-var btnShow =  document.getElementById('detailsFull').addEventListener('click', buttonClickz);
-var btnShow =  document.getElementById('detailsFullMobile').addEventListener('click', buttonClickz);
-function buttonClickz(e){
+//var btnShow =  document.getElementById('detailsFull').addEventListener('click', buttonClickz);
+//var btnShow =  document.getElementById('detailsFullMobile').addEventListener('click', buttonClickz);
+function buttonClickz(){
     var show = document.getElementById("half");
     var full = document.getElementById("full");
     if (full.style.display === "none") {
