@@ -17,53 +17,6 @@
 
 }
 @font-face {
-    font-family: 'noir_probold_italic';
-    src: url('/Fonts/noirpro-bolditalic-webfont.woff2') format('woff2'),
-         url('/Fonts/noirpro-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'noir_proheavy';
-    src: url('/Fonts/noirpro-heavy-webfont.woff2') format('woff2'),
-         url('/Fonts/noirpro-heavy-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'noir_proheavy_italic';
-    src: url('/Fonts/noirpro-heavyitalic-webfont.woff2') format('woff2'),
-         url('/Fonts/noirpro-heavyitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'noir_proitalic';
-    src: url('../Fonts/webfontkit-20220326-175332/noirpro-italic-webfont.woff2') format('woff2'),
-         url('../Fonts/webfontkit-20220326-175332/noirpro-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'noir_prolight';
-    src: url('/Fonts/noirpro-light-webfont.woff2') format('woff2'),
-         url('/Fonts/noirpro-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'noir_prolight_italic';
-    src: url('/Fonts/noirpro-lightitalic-webfont.woff2') format('woff2'),
-         url('/Fonts/noirpro-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
     font-family: 'noir_promedium';
     src: url('/Fonts/noirpro-medium-webfont.woff2') format('woff2'),
          url('/Fonts/noirpro-medium-webfont.woff') format('woff');
@@ -72,33 +25,9 @@
 
 }
 @font-face {
-    font-family: 'noir_promedium_italic';
-    src: url('/Fonts/noirpro-mediumitalic-webfont.woff2') format('woff2'),
-         url('/Fonts/noirpro-mediumitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
     font-family: 'noir_proregular';
     src: url('/Fonts/noirpro-regular-webfont.woff2') format('woff2'),
          url('/Fonts/noirpro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'noir_prosemi_bold';
-    src: url('/Fonts/noirpro-semibold-webfont.woff2') format('woff2'),
-         url('/Fonts/noirpro-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'noir_prosemi_bold_italic';
-    src: url('/Fonts/noirpro-semibolditalic-webfont.woff2') format('woff2'),
-         url('/Fonts/noirpro-semibolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -381,7 +310,7 @@
     padding-right: 8rem;
     color: white;
     font-size: 30px;
-    font-family: noir_promedium;
+    font-family: "noir_promedium";
     position: absolute;
     overflow:hidden;
     right: 0%;
@@ -391,7 +320,7 @@
     margin: 0 auto;
     color: white;
     font-size: 30px;
-    font-family: noir_promedium;
+    font-family: "noir_promedium";
     position: absolute;
   }
   .Midbtn2{
@@ -525,7 +454,7 @@
 }
 /*_________________episode Page_______________*/
 .butttonPrevNext{
-    font-family: "NoirPro-Regular";
+    font-family: "noir-proregular";
     background-color: black;
     border: none;
     color: white;
@@ -557,7 +486,7 @@
 
 #Noir2{
     
-    font-family: "NoirPro-Regular";
+    font-family: "noir_proregular";
     background-color: black;
     border: none;
     color: white;
@@ -639,7 +568,7 @@
     padding-bottom: 4rem;
     background-image: url(/IMAGES/Miscellaneous/mixesForTheMassesCover.jpg); 
     background-size: cover;
-    font-family: "NoirPro-Regular";
+    font-family: "noir_proregular";
     
 }
 .footer{

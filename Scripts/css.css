@@ -1,0 +1,134 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    @import url(https://db.onlinewebfonts.com/c/ff194d14f11197a37610711ef9f788ff?family=NoirPro-Regular);
+    @import url(https://db.onlinewebfonts.com/c/cfa8c9d9ee40a6c49cd3f868a7a7a85e?family=Sanvito+Pro);
+    @import url(https://db.onlinewebfonts.com/c/63137a821976b7fdfcf941ab1528cb19?family=AG_Helvetica);
+    font-family: "noir_proregular";
+    background-color: black;
+
+}
+@font-face {
+    font-family: 'noir_probold';
+    src: url('/Fonts/noirpro-bold-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_promedium';
+    src: url('/Fonts/noirpro-medium-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noir_proregular';
+    src: url('/Fonts/noirpro-regular-webfont.woff2') format('woff2'),
+         url('/Fonts/noirpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Sanvito Pro"; 
+    src: url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.eot?") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.woff") format("woff"), url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/cfa8c9d9ee40a6c49cd3f868a7a7a85e.svg") format("svg");
+ }
+
+/*_______________________Home Page n navbar____________*/
+.mySlides {
+    display: none;
+}
+.Sanvito{
+    font-family: "Sanvito Pro";
+    font-size: 25px;
+    font-weight: lighter;
+    margin:0;
+    margin-left: 20px;
+}
+#nav{
+    font-size: 14px;
+}
+.nav-links{
+    padding: 7px;
+    margin-right: 20px;
+    font-size: 15px;
+    
+}
+.nav-links a{
+    text-decoration: none;
+}
+.SmallHome{
+    font-size: 15px;
+}
+.navLeft{
+    margin-right: 2rem;
+}
+.navLine a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: rgb(173, 111, 52);
+    margin: auto;
+    transition: 0.5s;
+}
+.navLine a:hover::after,
+.navLine a.active
+{
+    width: 100%;
+}
+.NavBtn{
+    font-family: "noir_proregular";
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color:black ;
+    color: white;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    background-color: black;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%
+  }
+  #myDropdown{
+    width: 100%;
+    background-color: black;
+    position: relative;
+  }
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
