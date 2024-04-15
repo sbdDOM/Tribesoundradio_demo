@@ -1,10 +1,8 @@
-# Tsr Notes
+# This is the tribesoundradio source code
 
--align the footer height wise
--align latest width and footer width with paragraph
--hover affect on contact page
--update the latest show with ep14, ep13 and the event highlights
--add new episode
--update footer to every page 
+Established in 2018, tribesoundradio was an idea that manifested into an online radio show two years later. Originally, it was just a 60-minute music mix that consisted of 'undiscovered' music, hosted by the founder, sethu. Now, tribesoundradio has plans of developing into an online audio-visual radio experience — redefining what radio is. While maintaining the concept of bringing you the best up-and-coming talent, we will bring you even more content, more shows, and more art. From South Africa to the world!
 
--insta, twitter, facebook, tik tok, twitch, soundcloud, spotify, youtube, mail
+# Link to live website. Check it out!
+
+https://tribesoundradio.com/
+
